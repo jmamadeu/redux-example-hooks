@@ -8,6 +8,7 @@ class Sidebar extends Component {
   changeLesson = (md, lesson) => {
     this.props.toggleLesson(md, lesson);
   };
+
   render() {
     return (
       <aside>
